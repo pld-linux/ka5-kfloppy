@@ -36,6 +36,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 KFloppy is a utility that provides a straightforward graphical means
 to format 3.5" and 5.25" floppy disks.
 
+%description -l pl.UTF-8
+KFloppy jest programem użytkowym, który dostarcza prosty graficzny
+interfejs do formatowania dyskietek 3.5" and 5.25".
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
